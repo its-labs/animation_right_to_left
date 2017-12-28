@@ -5,6 +5,9 @@ import { StackNavigator } from 'react-navigation';
 import getSlideFromRightTransition from 'react-navigation-slide-from-right-transition';
 import { HomeScreen } from '../screens/home2'
 export class home extends Component {
+    static navigationOptions = {
+        header: null,
+      }
     render() {
 
         return (
